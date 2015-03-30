@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("oo-eval"
+ (filename . "~/documents/6.037/oo-eval.scm")
+ (front-context-string . "(define (oo-eval")
+ (rear-context-string . " of oo-eval\n;;\n\n")
+ (position . 2982))
+("make-class"
+ (filename . "~/documents/6.037/oo-eval.scm")
+ (front-context-string . "(define (make-cl")
+ (rear-context-string . "ss special form\n")
+ (position . 19292))
+)
