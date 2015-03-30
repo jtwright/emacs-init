@@ -24,7 +24,7 @@
 
 
 ;; autopair
-(add-to-list 'load-path "/cygdrive/c/emacslisp/autopair-0.4")
+(add-to-list 'load-path ".emacs.d/autopair-0.4")
 (require 'autopair)
 (autopair-global-mode)
 
@@ -33,7 +33,7 @@
 (ido-mode t)
 
 ;; auto-complete
-(add-to-list 'load-path "/cygdrive/c/emacslisp/auto-complete-1.3.1")
+(add-to-list 'load-path ".emacs.d/auto-complete-1.3.1")
 (require 'auto-complete)
 (add-to-list 'ac-dictionary-directories "~/emacs.d/ac-dict")
 (require 'auto-complete-config)
@@ -104,7 +104,7 @@
 
 
 ;; color theme
-(add-to-list 'load-path "/cygdrive/c/emacslisp/color-theme-6.6.0")
+(add-to-list 'load-path ".emacs.d/color-theme-6.6.0")
 (require 'color-theme)
 (color-theme-initialize)
 
@@ -222,20 +222,20 @@
 
 
 ;; php-mode
-(add-to-list 'load-path "/cygdrive/c/emacslisp/php-mode-1.13")
+(add-to-list 'load-path ".emacs.d/php-mode-1.13")
 (require 'php-mode)
 
 ;; web-mode
-(add-to-list 'load-path "/cygdrive/c/emacslisp/web-mode")
+(add-to-list 'load-path ".emacs.d/web-mode")
 (require 'web-mode)
 
 ;; markdown-mode
-;;(add-to-list 'load-path "/cygdrive/c/emacslisp/markdown-mode-2.0")
+;;(add-to-list 'load-path ".emacs.d/markdown-mode-2.0")
 ;;(require 'markdown-mode)
 ;;(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 ;; lua-mode
-(add-to-list 'load-path "/cygdrive/c/emacslisp/lua-mode-28155ba")
+(add-to-list 'load-path ".emacs.d/lua-mode-28155ba")
 (autoload 'lua-mode "lua-mode" "Lua editing mode." t)
 (add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
 (add-to-list 'interpreter-mode-alist '("lua" . lua-mode))
@@ -263,7 +263,7 @@
 
 
 ;; jinja2-mode
-(add-to-list 'load-path "/cygdrive/c/emacslisp/jinja2-mode")
+(add-to-list 'load-path ".emacs.d/jinja2-mode")
 (require 'jinja2-mode)
 
 ;;(global-linum-mode)
